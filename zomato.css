@@ -1,0 +1,526 @@
+body{
+    margin: 0;
+    width: 100%;
+    
+}
+.container{
+    width: 83%;
+    margin: auto;
+}
+.header{
+position: relative;
+}
+.image-container{
+    position: relative;
+    width: 100%;
+    height: 420px;
+    overflow: hidden;
+}
+.image-container img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+transform: scale(1.1)
+}
+.header-body-section{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: white;
+}
+.nav{
+   
+    font-weight: 550;
+    height: 50px;
+}
+.container-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logocontainer{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+
+}
+.nav ul li{
+    padding: 0px 3px;
+    margin-right: 25px;
+    font-size: 20px;
+    font-weight: 100
+}
+.nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.zomato-logo{
+    width: 300px;
+}
+.container-header-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 420px;
+   flex-direction: column;
+}
+.header-body-content{
+    position:relative ;
+    top: -50px;
+}
+.header-body-section-discover{
+font-size: 45px;
+margin: 25px 0;
+}
+.search-container{
+    background-color: #fff;
+    width: 100%;
+    height: 50px;
+    max-width: 760px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 7px;
+    color: black;
+}
+.location-map{
+    color: rgb(213, 100, 100);
+    font-size: 22px;
+}
+.fa-caret-down{
+    color: black;
+}
+.detectionLocation input{
+    border: none;
+    font-size: 15px;
+    width: 190px;
+}
+.search-item{
+    color: rgb(94, 93, 93);
+    font-size: 18px;
+}
+.line{
+    padding: 7px;
+}
+.search-item input{
+    max-width: 100%;
+    width: 400px;
+    font-size: 15px;
+    border: none;
+    padding: 5 10px;
+    outline: none;
+}
+
+/*** section 1 feature ***/
+.section-1{
+    margin: 40px;
+}
+.container-features{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 170px;
+
+}
+.features{
+    overflow: hidden;
+    border-radius: 20px;
+    height: 350px;
+    border: 0.5px solid rgb(230, 227, 227);
+}
+.feature-image{
+    height: 200px;
+    width: 550px;
+    overflow: hidden;
+    
+}
+.feature-image img{
+    width: 100%;
+    background-position: -100px;
+    
+}
+.features h3,
+.features p{
+    padding-left: 20px;
+}
+.features:hover{
+    transition: transform 0.7s;
+    transform: scale(1.04);
+    cursor: pointer;
+}
+/*** section 2 feature ***/
+.Popular{
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    display: block;
+    text-align: -webkit-center;
+    unicode-bidi: isolate;
+}
+.box-2{
+    border: 1px solid rgb(235, 233, 233);
+    width: 340px;
+    /* box-shadow: 0 1px 3px; */
+    height: 60px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    padding-left: 20px;
+}
+.sec-4{
+    display: grid;
+    justify-content: center;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+    grid-template-columns: 340px 340px 340px;
+    grid-template-rows: auto;
+    
+    
+}
+.box-2:hover{
+    transition: transform 0.7s;
+    transform: scale(1.04);
+    cursor: pointer;
+}
+/*** section 3 feature ***/
+
+
+
+.cZDktn {
+    position: relative;
+    max-width: 90rem;
+    max-height: initial;
+    margin: 3rem auto 0px;
+}
+.dXYpoR {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.iNMJIz {
+    height: 100px;
+    position: relative;
+    max-width: 90rem;
+    margin: 3rem auto 0px;
+}
+.bAdAXA {
+    height: 350px;
+    padding-right: 250px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 100%;
+    background-color: rgb(255, 251, 247);
+    
+}
+.jrFFeB {
+    display: flex;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    margin-right: 2rem;
+    width: 100%;
+}
+.cTwZic {
+    position: relative;
+    max-width: 100%;
+    width: 25rem;
+    height: 45rem;
+    overflow: hidden;
+}
+.cVOEqG {
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    background: linear-gradient(to right, rgb(248, 248, 248) 0%, rgb(255, 255, 255) 10%, rgb(248, 248, 248) 40%, rgb(248, 248, 248) 100%) no-repeat rgb(248, 248, 248);
+    opacity: 0;
+    transition: opacity 0.25s ease-out 0s;
+    will-change: opacity;
+    border-radius: inherit;
+    animation: 1.5s linear 0s infinite normal forwards running jCOzbu;
+}
+.jQwYOW {
+margin-top: 130px;
+padding-top: 110px;
+
+    width: 100%;
+    height: 50%;
+    object-fit: contain;
+    transform: none;
+    opacity: 1;
+    will-change: transform, opacity;
+    border-radius: inherit;
+    filter: unset;
+    transition: opacity 0.25s ease 0s, transform 0.25s ease 0s;
+}
+.esxFhI {
+    width: 100%;
+    text-align: center;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.eEIKKc {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
+}
+.iQbNtV {
+    width: 100%;
+    font-size: 1.6rem;
+    line-height: 1.2;
+}
+.cPrcZG{
+    color: rgb(28, 28, 28);
+    margin: 0px 0px 1.5rem;
+    font-weight: 500px;
+    font-size: 3rem;
+    line-height: 5.6rem;
+}
+form {
+    display: block;
+    margin-top: 0em;
+    unicode-bidi: isolate;
+}
+input[type="radio" i] {
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 3px 3px 0px 5px;
+    padding: initial;
+    border: initial;
+}
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+input[type="radio" i] {
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 3px 3px 0px 5px;
+    padding: initial;
+    border: initial;
+}
+.zomato-app-input {
+    display: flex;
+    height: 40px;
+}
+option {
+    font-weight: normal;
+    display: block;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+    white-space: nowrap;
+}
+select {
+    border-radius: 5px;
+    font-size: 14px;
+width: 45px;
+height: 40px;
+
+}
+
+input[type="text" i] {
+    margin-top: 5px;
+    padding-block: 1px;
+    padding-inline: 2px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 15px
+    
+}
+
+.zomato-app-btn {
+    border-radius: 5px;
+    background-color: rgb(231, 79, 79);
+    box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+    transform: translateY(0);
+    align-items: center;
+    background-clip: padding-box;
+    border: 1px solid transparent;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+}
+
+
+.fyxHza{
+    line-height: 1.5;
+    margin: 0px 0px 1.5rem;
+    color: rgb(156, 156, 156);
+    font-size: 1.4rem;
+}
+
+.clyiJK {
+    display: flex;
+}
+.blTnzu {
+    text-decoration: none;
+}
+.fxuOHl {
+    position: relative;
+    max-width: 100%;
+    width: 13.7rem;
+    height: 4rem;
+    overflow: hidden;
+}
+.cVOEqG {
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    background: linear-gradient(to right, rgb(248, 248, 248) 0%, rgb(255, 255, 255) 10%, rgb(248, 248, 248) 40%, rgb(248, 248, 248) 100%) no-repeat rgb(248, 248, 248);
+    opacity: 0;
+    transition: opacity 0.25s ease-out 0s;
+    will-change: opacity;
+    border-radius: inherit;
+    animation: 1.5s linear 0s infinite normal forwards running jCOzbu;
+}
+
+.gBOMoG {
+    margin-left: 2rem;
+}
+.blTnzu {
+    text-decoration: none;
+}
+.fxuOHl {
+    position: relative;
+    max-width: 100%;
+    width: 13.7rem;
+    height: 4rem;
+    overflow: hidden;
+}
+
+.fyZwWD {
+    border-radius: 5px;
+    width: 70%;
+    height: 60%;
+    object-fit: cover;
+    transform: none;
+    opacity: 1;
+    will-change: transform, opacity;
+    filter: unset;
+    transition: opacity 0.25s ease 0s, transform 0.25s ease 0s;
+}
+
+.Explore{
+    margin-left: 220px;
+    color: rgb(54, 54, 54);
+    font-size: 33px;
+    line-height: 4rem;
+    font-weight: 500;
+}
+.Explore{
+    margin: 0px 0px 2rem;
+    color: rgb(54, 54, 54);
+    font-size: 2rem;
+    line-height: 4rem;
+    margin-left: 200px;
+}
+.section-5-collapse-heading{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 10px;
+    width: 1000px;
+    height: 70px;
+    margin-left: 200px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+
+.footer{
+    width: 100%;
+    background: rgb(248, 248, 248);
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+.sec-7{
+    max-width: 110rem;
+    width: 110rem;
+    padding: 4.8rem 0px 2.2rem;
+    position: relative;
+
+}
+.first{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+    
+}
+.img1{
+    height: 2.8rem;
+    width: 13.2rem;
+}
+.first-1 {
+    display: flex;
+}
+.first-1 span {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.second{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+.headingg{
+    font-size: 0.9rem;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0px 0px 1.2rem;
+    
+}
+.ss{
+    text-decoration: none;
+    color: rgb(143, 153, 161);
+}
+.second div {
+    width: 200px;
+}
